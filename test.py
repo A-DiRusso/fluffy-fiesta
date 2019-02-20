@@ -1,6 +1,6 @@
 #ssss these aren't real test
 from character import Character
-from test import Hero
+from character import Hero
 
 
 # Characters can be instantiated with avatar and name
@@ -34,3 +34,6 @@ print(arya.greet_character())
 #I should be able to create a `Hero` instance
 bronn = Hero("Broon of the Blackwater", "bron.png")
 
+#Hero should be able to greet Character
+print(bronn.greet_character(arya))
+print(jon.greet_character(bronn))

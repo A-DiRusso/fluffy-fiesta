@@ -15,3 +15,6 @@ class Character():
         
     def greet(self):
         return "Hello, I'm %s?" % (self.name,)
+    
+    def greet_character(self, someone):
+        return "Hello, %s, I'm %s?" % (someone.name, self.name)

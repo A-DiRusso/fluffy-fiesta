@@ -22,9 +22,10 @@ print(len(arya.inventory))
 # aray should have a `greet` method 
 # and when called should return 
 # "hello, I am arya start?"
-#when i call it with `arya.greet(jon)
+#when i call it with `arya.greet_charactor(jon)
 # should return
 # 'hello jon snow, i'm arya starK?`
 print(arya.greet())
 print(arya.greet_character(jon))
+print(arya.greet_character())
 

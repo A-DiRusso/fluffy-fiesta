@@ -25,3 +25,9 @@ class Character():
             return "Hello, %s, I'm %s?" % (someone.name, self.name)
         else:
             return "Hello, I'm %s?" % (self.name,)
+
+#`Hero` is a sub-class of `Character`
+#`Hero` inherits from `Character`
+#`Character` is the super class of `Hero`
+class Hero(Character):
+    pass

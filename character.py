@@ -11,3 +11,4 @@ class Character():
         # some other languages use `this` 
         self.name = new_name
         self.avatar = new_avatar
+        self.inventory = []

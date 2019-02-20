@@ -17,6 +17,10 @@ class Character():
         return "Hello, I'm %s?" % (self.name,)
     #someone=None == is a defalut argument where None == Null in javaScirpt
     def greet_character(self, someone=None):
+        # When we assume `someone` has a `.name` property
+        # this is an Object-Oriented Programming principle called
+        # Polymorphism
+        #In Python it is called 'Duck Typing' :)
         if someone is not None:
             return "Hello, %s, I'm %s?" % (someone.name, self.name)
         else:

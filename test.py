@@ -3,8 +3,8 @@ from character import Character
 
 # Characters can be instantiated with avatar and name
 
-arya = Character("Arya", "arya.png")
-jon = Character("Jon", "jon.png")
+arya = Character("Arya Stark", "arya.png")
+jon = Character("Jon Stark", "jon.png")
 
 
 
@@ -18,3 +18,9 @@ arya.inventory.append('Needle')
 arya.inventory.append('Mask')
 
 print(len(arya.inventory))
+
+# aray should have a `greet` method 
+# and when called should return 
+# "hello, I am arya start?"
+print(arya.greet())
+

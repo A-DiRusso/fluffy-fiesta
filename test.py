@@ -1,6 +1,7 @@
 #ssss these aren't real test
 from character import Character
-from character import Hero
+from test import Hero
+
 
 # Characters can be instantiated with avatar and name
 
